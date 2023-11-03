@@ -1,0 +1,19 @@
+ongs = {
+'Bad Guy': 3,
+'Thunder': 3,
+'Sweater Weather': 4,
+'Numb': 3,
+'Karma Police': 4,
+'Enjoy the Silence': 4,
+'Obstacles': 3,
+'Crosses': 2,
+'Unnamed Feeling': 7
+}
+s = 0
+n=int(input('n='))
+
+for i in range (n):
+      naz=input('название словаря')
+      s+=ongs[naz]
+print(s)      
+      
